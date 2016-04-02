@@ -1,0 +1,115 @@
+
+body {
+  font-size: 16px;
+  background-color: SlateBlue;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color: #aaaaaa;
+  border-radius: 0;
+  border: solid 2px black;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-brand {
+  padding-bottom: 50px;
+}
+.navbar-brand h1 { /* Brand name */
+  font-family: 'Oxygen', sans-serif;
+  color: SlateBlue;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+#nav-list a {
+  font-weight: bold;
+  color: SlateBlue;
+  text-align: center;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  margin-top: -1px;
+}
+#nav-list a:hover {
+  background: PaleTurquoise;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid SlateBlue;
+  background-color: LightBlue; 
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+
+/* END HEADER */
+
+/* MAIN CONTENT */
+h2 { /* Our Menu */
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.row {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.content-box {
+	margin-bottom: 20px;
+}
+
+.content-box h3 {
+	margin-top: 0;
+	font-weight: bold;
+	color: DarkOrchid ;
+}
+
+.content-box a {
+	text-decoration: none;
+	font-weight: bold;
+	color: maroon;
+}
+
+.content-box a:hover, .content-box a:focus {
+	color: white;
+}
+
+#chicken-box,
+#beef-box,
+#sushi-box {
+	padding: 25px;
+}
+
+#chicken-box {
+	background-color: LightCyan;
+}
+
+#beef-box {
+	background-color: LightBlue;
+}
+
+#sushi-box {
+	background-color: lightSkyBlue;
+}
+
+
+
+/* END MAIN CONTENT */
+
+
