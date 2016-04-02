@@ -83,11 +83,11 @@ h2 { /* Our Menu */
 .content-box a {
 	text-decoration: none;
 	font-weight: bold;
-	color: maroon;
+	color: DarkBlue;
 }
 
 .content-box a:hover, .content-box a:focus {
-	color: white;
+	color: Maroon;
 }
 
 #chicken-box,
@@ -105,7 +105,7 @@ h2 { /* Our Menu */
 }
 
 #sushi-box {
-	background-color: lightSkyBlue;
+	background-color: LightSkyBlue;
 }
 
 
